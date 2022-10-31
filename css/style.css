@@ -1,0 +1,36 @@
+body {
+	background-color: black;
+}
+nav {
+	transition: all 0.5s ease-in-out;
+
+	z-index: 900;
+	transform: translateX(-78%);
+}
+.translate {
+	transform: translateX(0);
+}
+nav ul {
+	padding-top: 10px;
+	padding-right: 130px;
+	list-style: none;
+	text-decoration: none;
+}
+nav ul li {
+	font-size: 16px;
+	padding: 13px 0px;
+	cursor: pointer;
+}
+.meal-name {
+	top: 100%;
+	transition: top 0.5s ease-in-out;
+}
+.meal:hover .meal-name {
+	top: 0;
+}
+.naav {
+	width: 75px;
+}
+.naav div {
+	cursor: pointer;
+}
